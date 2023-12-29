@@ -1,7 +1,8 @@
-#heading{
+h1{
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50;
+    font: bold;
+    font-family: cursive;
+    font-size: 35;
 }
 p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +22,7 @@ p{
     height: 190px;
     float:inline-start;
 }
-#chicken{
+#chicken, #beef, #sushi{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100px;
@@ -34,29 +35,15 @@ p{
     position: absolute;
     right:0px;
 }
+#chicken{
+    background-color: pink;
+    color: black;
+}
 #beef{
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100px;
-    height: 20px;
-    border: 2px solid black;
-    border-top: 0px;
-    border-right: 0px;
     color: white;
     background-color: rgb(185, 75, 75);
-    position: absolute;
-    right:0px;
 }
 #sushi{
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100px;
-    height: 20px;
-    border: 2px solid black;
-    border-top: 0px;
-    border-right: 0px;
     background-color: rgb(229, 185, 147);
-    position: absolute;
     color: black;
-    right:0px;
 }
