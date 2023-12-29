@@ -1,13 +1,16 @@
 #heading{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50;
 }
 p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 5px;
+    padding: 5px;
 }
-div{
+#main{
     position: relative;
+    align-items: center;
 }
 .box{
     border: 2px solid black;
@@ -15,7 +18,7 @@ div{
     margin: 8px;
     position: relative;
     width: 400px;
-    height: 180px;
+    height: 190px;
     float:inline-start;
 }
 #chicken{
