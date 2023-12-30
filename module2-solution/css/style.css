@@ -9,14 +9,56 @@ p{
     margin: 5px;
     padding: 5px;
 }
-*{
-    box-sizing: border-box;
+@media (max-width: 767px){
+    .box{
+        border: 2px solid black;
+        background-color: rgb(119, 118, 118);
+        margin: 12px;
+        position: relative;
+        width: 31%;
+        float:left;
+    }
+    
+    #chicken, #beef, #sushi{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        width: 100px;
+        height: 25px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        border-top: 0px;
+        border-right: 0px;
+        background-color: pink;
+        color: black;
+        position: absolute;
+        right:0px;
+        top:0px;
+    }
+    #chicken{
+        background-color: pink;
+        color: black;
+    }
+    #beef{
+        color: white;
+        background-color: rgb(185, 75, 75);
+    }
+    #sushi{
+        background-color: rgb(229, 185, 147);
+        color: black;
+    } 
 }
 
-.box{
+@media (min-width: 768px) and (max-width:991px){
+    
+}
+
+@media (min-width: 992px){
+   .box{
     border: 2px solid black;
     background-color: rgb(119, 118, 118);
-    margin: 14px;
+    margin: 12px;
     position: relative;
     width: 31%;
     float:left;
@@ -37,6 +79,7 @@ p{
     color: black;
     position: absolute;
     right:0px;
+    top:0px;
 }
 #chicken{
     background-color: pink;
@@ -49,4 +92,5 @@ p{
 #sushi{
     background-color: rgb(229, 185, 147);
     color: black;
+} 
 }
