@@ -61,6 +61,5 @@ p{
     .box:nth-child(1), .box:nth-child(2), .box:nth-child(3){
         width: 100%;
         float: none;
-        margin: 5px !important;
     }
 }
